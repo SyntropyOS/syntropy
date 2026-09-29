@@ -145,7 +145,7 @@ en otros sitios:
 | Repositorio | Visibilidad | Contenido |
 |---|---|---|
 | [`SyntropyOS/.github`](https://github.com/SyntropyOS/.github) | público | Perfil de la organización, manifiesto, roadmap, gobernanza |
-| [`SyntropyOS/strategy`](https://github.com/SyntropyOS/strategy) | **privado** | Definición maestra, evidencia de mercado, modelo de negocio, análisis competitivo |
+| `strategy` | **privado** | Definición maestra, evidencia de mercado, modelo de negocio, análisis competitivo |
 
 La separación es deliberada. Mezclar «esto es lo que creemos» con «esto es lo que sabemos
 del mercado» degrada ambas cosas.

@@ -143,7 +143,7 @@ This repository contains **what** we build. The **why** and the **for whom** liv
 | Repository | Visibility | Contents |
 |---|---|---|
 | [`SyntropyOS/.github`](https://github.com/SyntropyOS/.github) | public | Organization profile, manifesto, roadmap, governance |
-| [`SyntropyOS/strategy`](https://github.com/SyntropyOS/strategy) | **private** | Master definition, market evidence, business model, competitive analysis |
+| `strategy` | **private** | Master definition, market evidence, business model, competitive analysis |
 
 The split is deliberate. Mixing "this is what we believe" with "this is what we know
 about the market" degrades both.
