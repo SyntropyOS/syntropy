@@ -34,7 +34,7 @@ priorities changed. A holon with no diagnosed chaos behind it is a guess.
 | [**Iris**](./holons/iris/) · [ES](./holons/iris/README_ES.md) | Vision | **Perception**: what is an image or paper nobody can query | In build · 2nd |
 | [**Meta**](./holons/meta/) · [ES](./holons/meta/README_ES.md) | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
 | [**Execute**](./holons/execute/) · [ES](./holons/execute/README_ES.md) | Execution | **Execution**: the automation breaks and nobody repairs it | Defined |
-| [**Sage**](./holons/sage/) · [ES](./holons/sage/README_ES.md) | Learning | **Learning**: the system repeats what it was already corrected on | Defined |
+| [**Sage**](./holons/sage/) · [ES](./holons/sage/README_ES.md) | Adaptation | **Adaptation**: neither the system nor the people adapt | Defined |
 | [**Plan**](./holons/plan/) · [ES](./holons/plan/README_ES.md) | Planning | **Decomposition**: nobody breaks the work down | Defined |
 | [**Orchestra**](./holons/orchestra/) · [ES](./holons/orchestra/README_ES.md) | Coordination | **Runtime**: without it, the holons do not know how to cooperate | Defined · once 2+ exist |
 | [**Reverb**](./holons/reverb/) · [ES](./holons/reverb/README_ES.md) | Audio | Out of initial scope | Deferred |
@@ -49,6 +49,10 @@ it is the differentiator — the competition sells capability, this sells verifi
 
 **Plan** appears after Meta because its output is meant to be verifiable, and
 verification is what Meta provides. It is not an independent capability.
+
+**Sage** is adaptation in both halves: the machine learns from corrections, and the
+people change how they work. Enterprise AI fails on adoption more often than on
+accuracy, and no other holon covers that.
 
 ### The substrate
 
@@ -106,7 +110,7 @@ VantaDB  (substrate, in production)
    └─► 2. Iris       perception    ├─ without Cardinal there is nothing to verify
    └─► 3. Meta       trust         ┘
    └─► 4. Execute    execution     requires prior trust
-   └─► 5. Sage       learning      requires trustworthy context
+   └─► 5. Sage       adaptation   requires trustworthy context and Iris
    └─► 6. Plan       decomposition requires something to verify the steps against
           Orchestra   runtime       once two holons are alive
 ```

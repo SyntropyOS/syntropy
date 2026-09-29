@@ -1,6 +1,6 @@
 # Syntropy Sage
 
-> **Learning** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
+> **Adaptation** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
 
 <div align="right"><a href="./README_ES.md">Español</a> | English</div>
 
@@ -10,26 +10,32 @@
 
 ## The chaos it resolves
 
-**Learning**: the system does not learn from its own corrections. Everything is re-taught every time.
+**Adaptation**: nobody adapts. The system repeats what it was already corrected on, and the people repeat what they were already shown.
 
 This holon exists because that chaos gets diagnosed in real organizations. If a
 diagnosis does not find it, it does not get built.
 
 ## Theory
 
-Useful adaptation is **per organization**, not global. A model tuned for one company is useless for another. The learning that matters stays inside the organization and does not leave for an external provider.
+Adaptation is **per organization**, not global. A model tuned for one company is useless for another. And the half that gets ignored: the people do not adapt either. Systems reach production or they do not, and the deciding factor is usually whether someone changed how they work, not whether the model got smarter.
 
 ## What it produces
 
-Capture of corrections as first-party training data. Local adaptation per domain and per customer. Isolation: one customer's learning does not contaminate another's.
+Capture of corrections as first-party training data, plus the human half: who adopted what, who overrode it, who escalated, and why. Local adaptation per domain and per customer, for the machine and for the workflow. Isolation: one customer's learning does not contaminate another's.
 
 ## Validation signal
 
-> How many times does the same thing have to be re-taught because the system forgot an earlier correction?
+> Who used this last week, and what did they do with the answer? If the answer is nobody, the bottleneck is adoption and not accuracy.
+
+### Why adaptation includes people
+
+Enterprise AI fails more often on adoption than on accuracy. The measured causes are organizational: no agreed definition of success, no change management, and no named production owner. Three of the five things the projects that reach production do before writing code are organizational, and none of the three is about model quality.
+
+So this holon carries both halves on purpose. The machine half is ordinary fine-tuning territory. The human half — measuring behaviour, not accuracy, and feeding corrections back into the workflow — is what the industry skips, and it is where the money is.
 
 ### Why it comes fifth, on purpose
 
-Learning on untrusted context **amplifies** the error instead of correcting it. It needs Cardinal and Iris working first.
+Learning on untrusted context **amplifies** the error instead of correcting it. Both halves need Cardinal and Iris working first: you cannot adapt on a foundation nobody can trace.
 
 
 ## Dependencies

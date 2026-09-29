@@ -27,6 +27,23 @@ Governed index of organizational knowledge with spatio-temporal metadata. It ans
 
 > How long does the organization take to answer the leadership with a source and a date?
 
+### Three functions of memory, and which one this is
+
+The canonical taxonomy of agent memory splits it three ways, and Cardinal covers two of them:
+
+| Function | What it holds | Cardinal |
+|---|---|---|
+| Factual | Knowledge | **Formation** and **Retrieval** |
+| Experiential | Insights and skills | Not here — that is Sage |
+| Working | What goes into the active context | **See below** |
+
+### Working memory is part of this holon
+
+Working memory is not another database. It is the decision of what enters the context window on each call, and it is where most production systems quietly break: context grows with every agent transition until quality degrades or the token bill does.
+
+So working memory belongs to Cardinal as a retrieval constraint: every answer carries a token budget, and what does not earn its place inside that budget is left out. Retrieval under budget, not retrieval of everything. This is a requirement on Cardinal, not a separate component.
+
+
 ## Dependencies
 
 None. It comes first.

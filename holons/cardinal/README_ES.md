@@ -26,6 +26,28 @@ Todo hecho tiene tres atributos que lo hacen verificable: **posición** (dónde 
 
 > ¿Cuánto tarda la organización en responder con fuente y fecha cuando la dirección hace una pregunta?
 
+### Las tres funciones de la memoria, y cuál es esta
+
+La taxonomía canónica de memoria agéntica la parte en tres, y Cardinal cubre dos:
+
+| Función | Qué guarda | Cardinal |
+|---|---|---|
+| Factual | Conocimiento | **Formación** y **Recuperación** |
+| Experiencial | Perspectivas y habilidades | No aquí — eso es Sage |
+| De trabajo | Qué entra en el contexto activo | **Ver abajo** |
+
+### La memoria de trabajo es parte de este holón
+
+La memoria de trabajo no es otra base de datos. Es la decisión de qué entra en la ventana
+de contexto en cada llamada, y es donde los sistemas en producción se rompen en silencio:
+el contexto crece con cada transición entre agentes hasta que la calidad se degrada o la
+factura de tokens se dispara.
+
+Por eso la memoria de trabajo pertenece a Cardinal como restricción de recuperación: cada
+respuesta trae un presupuesto de tokens, y lo que no se gana un lugar dentro de ese
+presupuesto se queda fuera. Recuperación bajo presupuesto, no recuperación de todo. Es un
+requisito de Cardinal, no un componente aparte.
+
 ## Dependencias
 
 Ninguna. Es el primero.

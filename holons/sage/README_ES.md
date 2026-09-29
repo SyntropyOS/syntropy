@@ -1,7 +1,7 @@
 # Syntropy Sage
 
 <div align="right"><a href="./README.md">English</a> | Español</div>
-> **Aprendizaje** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
+> **Adaptación** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
 
 **Estado: Definido** · Posición en la cadena: **5 de 6**
 
@@ -9,26 +9,39 @@
 
 ## El caos que resuelve
 
-**Aprendizaje**: el sistema no aprende de sus propias correcciones. Se re-enseña todo cada vez.
+**Adaptación**: nadie se adapta. El sistema repite lo que ya se le corrigió, y las personas repiten lo que ya les mostraron.
 
 Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
 diagnóstico no lo encuentra, no se construye.
 
 ## Teoría
 
-La adaptación útil es **por organización**, no global. Un modelo afinado para una empresa no sirve para otra. El aprendizaje que importa se queda dentro de la organización y no se va a un proveedor externo.
+La adaptación es **por organización**, no global. Un modelo afinado para una empresa no sirve para otra. Y la mitad que todos ignoran: las personas tampoco se adaptan. Los sistemas llegan a producción o no llegan, y lo que suele decidirlo no es si el modelo se puso más inteligente, sino si alguien cambió cómo trabaja.
 
 ## Qué produce
 
-Captura de correcciones como datos de entrenamiento propios. Adaptación local por dominio y por cliente. Aislamiento: el aprendizaje de un cliente no contamina a otro.
+Captura de correcciones como datos de entrenamiento propios, más la mitad humana: quién adoptó qué, quién sobrescribió, quién escaló y por qué. Adaptación local por dominio y por cliente, para la máquina y para el flujo de trabajo. Aislamiento: el aprendizaje de un cliente no contamina a otro.
 
 ## Señal de validación
 
-> ¿Cuántas veces hay que re-enseñar lo mismo porque el sistema olvidó una corrección anterior?
+> ¿Quién usó esto la semana pasada, y qué hizo con la respuesta? Si la respuesta es nadie, el cuello de botella es la adopción y no la precisión.
+
+### Por qué la adaptación incluye a las personas
+
+La IA empresarial falla más por adopción que por precisión. Las causas medidas son
+organizacionales: no hay definición de éxito acordada, no hay gestión del cambio, y no hay
+un responsable de producción nombrado. Tres de las cinco cosas que hacen los proyectos que
+sí llegan a producción —antes de escribir código— son organizacionales, y ninguna de las
+tres es sobre calidad del modelo.
+
+Por eso este holón carga las dos mitades a propósito. La mitad de máquina es territorio
+común de ajuste fino. La mitad humana —medir comportamiento en vez de precisión, y
+devolver las correcciones al flujo de trabajo— es lo que la industria se salta, y es donde
+está el dinero.
 
 ### Por qué va quinto
 
-A propósito. Aprender sobre contexto no confiable **amplifica** el error en lugar de corregirlo. Necesita a Cardinal e Iris funcionando primero.
+A propósito. Aprender sobre contexto no confiable **amplifica** el error en lugar de corregirlo. Las dos mitades necesitan a Cardinal e Iris funcionando primero: no se puede adaptar sobre una base que nadie puede rastrear.
 
 ## Dependencias
 
