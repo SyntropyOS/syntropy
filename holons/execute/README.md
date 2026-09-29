@@ -1,66 +1,65 @@
 # Syntropy Execute
 
-> **Ejecución** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
+> **Execution** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
 
-**Estado: Definido** · Posición en la cadena: **4 de 6**
+<div align="right"><a href="./README_ES.md">Español</a> | English</div>
+
+**Status: Defined** - Position in the chain: **4 of 6**
 
 ---
 
-## El caos que resuelve
+## The chaos it resolves
 
-**Ejecución**: la automatización se rompe y nadie sabe por qué ni la repara.
+**Execution**: the automation breaks and nobody knows why, and nobody repairs it.
 
-Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
-diagnóstico no lo encuentra, no se construye.
+This holon exists because that chaos gets diagnosed in real organizations. If a
+diagnosis does not find it, it does not get built.
 
-## Teoría
+## Theory
 
-Automatización sin observabilidad es un pasivo, no un activo. Un sistema que falla en silencio es peor que un sistema que no existe.
+Automation without observability is a liability, not an asset. A system that fails silently is worse than a system that does not exist.
 
-## Qué produce
+## What it produces
 
-Capa de ejecución de acciones y herramientas. Registro completo de cada acción: quién, cuándo, con qué entrada y salida. Reproducción y reversión. Alertas de fallo con causa.
+Execution layer for actions and tools. Full log of every action: who, when, with what input and output. Reproduction and rollback. Failure alerts with cause.
 
-## Señal de validación
+## Validation signal
 
-> ¿Cuánto tardan en enterarse de una automatización rota, y cuánto en repararla?
+> How long does it take to find out an automation broke, and how long to repair it?
 
-Esta es la pregunta que se le hace a un cliente potencial para saber si necesita este
-holon. Si la respuesta es «no hay problema», no hay venta. Y eso es correcto.
+### Relationship to MCP
 
-### Relación con MCP
+Tool execution in the agent world is MCP. Execute does not compete with MCP: it consumes it and adds the audit layer MCP does not bring.
 
-La ejecución de herramientas en el mundo de agentes es MCP. Execute no compite con MCP: lo consume con la capa de auditoría que MCP no trae.
 
-## Dependencias
+## Dependencies
 
-Meta. Viene cuando ya hay confianza.
+Meta. It arrives once there is trust.
 
-## Superficies
+## Surfaces
 
-| Superficie | Para quién | Forma |
+| Surface | For whom | Form |
 |---|---|---|
-| Desarrollador | Quien construye | API, SDK, servidor MCP, CLI |
-| Agente | Sistema de IA | Herramientas MCP invocables |
-| Humana | Persona no técnica | Interfaz, carga, corrección |
-| Empresa | Tiene que responder ante alguien | Panel de gobierno, auditoría, SLA, aislamiento |
+| Developer | Whoever builds on it | API, SDK, MCP server, CLI |
+| Agent | An AI system | Invocable MCP tools |
+| Human | Non-technical person | Interface, upload, correction |
+| Enterprise | Has to answer to someone | Governance panel, audit, SLA, isolation |
 
-Regla dura: si una capacidad solo existe dentro de una interfaz humana, es
-consultoría disfrazada de software. Todo lo que se le hace al cliente tiene que existir
-como API.
+Hard rule: if a capability only exists inside a human interface, it is consultancy disguised as
+software. Everything done for the client has to exist as an API.
 
-## Precio de referencia
+## Reference price
 
-USD 15.000 – 25.000 por implementación
+USD 15,000 - 25,000 per implementation
 
-## Criterio de construcción
+## Build criterion
 
-> Un holon **no se construye porque esté en un roadmap**. Se construye cuando un
-> diagnóstico en una organización real encuentra el caos que este holon resuelve.
+> A holon **is not built because it is on a roadmap**. It is built when a diagnosis in a real
+> organization finds the chaos this holon resolves.
 
-Ver el [ROADMAP de SyntropyOS](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md)
-para el orden completo y las condiciones de reactivación.
+See the [SyntropyOS ROADMAP](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) for the
+full order and the reactivation conditions.
 
-## Licencia
+## License
 
-Apache 2.0 — ver [LICENSE](./LICENSE).
+Apache 2.0 - see [LICENSE](./LICENSE).

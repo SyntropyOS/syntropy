@@ -1,62 +1,60 @@
 # Syntropy Cardinal
 
-> **Orientación** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
+> **Orientation** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
 
-**Estado: En construcción** · Posición en la cadena: **1 de 6**
+<div align="right"><a href="./README_ES.md">Español</a> | English</div>
+
+**Status: In build** - Position in the chain: **1 of 6**
 
 ---
 
-## El caos que resuelve
+## The chaos it resolves
 
-**Contexto**: la organización no sabe qué sabe, ni cuándo lo supo, ni de quién lo supo.
+**Context**: the organization does not know what it knows, when it learned it, or who it learned it from.
 
-Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
-diagnóstico no lo encuentra, no se construye.
+This holon exists because that chaos gets diagnosed in real organizations. If a
+diagnosis does not find it, it does not get built.
 
-## Teoría
+## Theory
 
-Todo hecho tiene tres atributos que lo hacen verificable: **posición** (dónde vive), **tiempo** (cuándo era cierto) y **procedencia** (quién lo afirmó). Sin los tres, la información se puede leer pero no se puede confiar. Cardinal convierte datos en contexto consultable.
+Every fact carries three attributes that make it verifiable: **position** (where it lives), **time** (when it was true) and **provenance** (who asserted it). Without all three, information can be read but not trusted. Cardinal turns data into queryable context.
 
-## Qué produce
+## What it produces
 
-Índice gobernado del conocimiento organizacional con metadatos espacio-temporales. Responde *cuándo supimos esto* y *de dónde salió*. Es la base sobre la que escriben y leen los demás holones.
+Governed index of organizational knowledge with spatio-temporal metadata. It answers *when we knew this* and *where it came from*. It is the substrate the other holons read and write on top of.
 
-## Señal de validación
+## Validation signal
 
-> ¿Cuánto tarda la organización en responder con fuente y fecha cuando la dirección hace una pregunta?
+> How long does the organization take to answer the leadership with a source and a date?
 
-Esta es la pregunta que se le hace a un cliente potencial para saber si necesita este
-holon. Si la respuesta es «no hay problema», no hay venta. Y eso es correcto.
+## Dependencies
 
-## Dependencias
+None. It comes first.
 
-Ninguna. Es el primero.
+## Surfaces
 
-## Superficies
-
-| Superficie | Para quién | Forma |
+| Surface | For whom | Form |
 |---|---|---|
-| Desarrollador | Quien construye | API, SDK, servidor MCP, CLI |
-| Agente | Sistema de IA | Herramientas MCP invocables |
-| Humana | Persona no técnica | Interfaz, carga, corrección |
-| Empresa | Tiene que responder ante alguien | Panel de gobierno, auditoría, SLA, aislamiento |
+| Developer | Whoever builds on it | API, SDK, MCP server, CLI |
+| Agent | An AI system | Invocable MCP tools |
+| Human | Non-technical person | Interface, upload, correction |
+| Enterprise | Has to answer to someone | Governance panel, audit, SLA, isolation |
 
-Regla dura: si una capacidad solo existe dentro de una interfaz humana, es
-consultoría disfrazada de software. Todo lo que se le hace al cliente tiene que existir
-como API.
+Hard rule: if a capability only exists inside a human interface, it is consultancy disguised as
+software. Everything done for the client has to exist as an API.
 
-## Precio de referencia
+## Reference price
 
-USD 8.000 – 15.000 por implementación
+USD 8,000 - 15,000 per implementation
 
-## Criterio de construcción
+## Build criterion
 
-> Un holon **no se construye porque esté en un roadmap**. Se construye cuando un
-> diagnóstico en una organización real encuentra el caos que este holon resuelve.
+> A holon **is not built because it is on a roadmap**. It is built when a diagnosis in a real
+> organization finds the chaos this holon resolves.
 
-Ver el [ROADMAP de SyntropyOS](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md)
-para el orden completo y las condiciones de reactivación.
+See the [SyntropyOS ROADMAP](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) for the
+full order and the reactivation conditions.
 
-## Licencia
+## License
 
-Apache 2.0 — ver [LICENSE](./LICENSE).
+Apache 2.0 - see [LICENSE](./LICENSE).

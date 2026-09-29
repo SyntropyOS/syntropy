@@ -1,66 +1,65 @@
 # Syntropy Sage
 
-> **Aprendizaje** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
+> **Learning** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
 
-**Estado: Definido** · Posición en la cadena: **5 de 6**
+<div align="right"><a href="./README_ES.md">Español</a> | English</div>
+
+**Status: Defined** - Position in the chain: **5 of 6**
 
 ---
 
-## El caos que resuelve
+## The chaos it resolves
 
-**Aprendizaje**: el sistema no aprende de sus propias correcciones. Se re-enseña todo cada vez.
+**Learning**: the system does not learn from its own corrections. Everything is re-taught every time.
 
-Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
-diagnóstico no lo encuentra, no se construye.
+This holon exists because that chaos gets diagnosed in real organizations. If a
+diagnosis does not find it, it does not get built.
 
-## Teoría
+## Theory
 
-La adaptación útil es **por organización**, no global. Un modelo afinado para una empresa no sirve para otra. El aprendizaje que importa se queda dentro de la organización y no se va a un proveedor externo.
+Useful adaptation is **per organization**, not global. A model tuned for one company is useless for another. The learning that matters stays inside the organization and does not leave for an external provider.
 
-## Qué produce
+## What it produces
 
-Captura de correcciones como datos de entrenamiento propios. Adaptación local por dominio y por cliente. Aislamiento: el aprendizaje de un cliente no contamina a otro.
+Capture of corrections as first-party training data. Local adaptation per domain and per customer. Isolation: one customer's learning does not contaminate another's.
 
-## Señal de validación
+## Validation signal
 
-> ¿Cuántas veces hay que re-enseñar lo mismo porque el sistema olvidó una corrección anterior?
+> How many times does the same thing have to be re-taught because the system forgot an earlier correction?
 
-Esta es la pregunta que se le hace a un cliente potencial para saber si necesita este
-holon. Si la respuesta es «no hay problema», no hay venta. Y eso es correcto.
+### Why it comes fifth, on purpose
 
-### Por qué va quinto
+Learning on untrusted context **amplifies** the error instead of correcting it. It needs Cardinal and Iris working first.
 
-A propósito. Aprender sobre contexto no confiable **amplifica** el error en lugar de corregirlo. Necesita a Cardinal e Iris funcionando primero.
 
-## Dependencias
+## Dependencies
 
-Cardinal e Iris.
+Cardinal and Iris.
 
-## Superficies
+## Surfaces
 
-| Superficie | Para quién | Forma |
+| Surface | For whom | Form |
 |---|---|---|
-| Desarrollador | Quien construye | API, SDK, servidor MCP, CLI |
-| Agente | Sistema de IA | Herramientas MCP invocables |
-| Humana | Persona no técnica | Interfaz, carga, corrección |
-| Empresa | Tiene que responder ante alguien | Panel de gobierno, auditoría, SLA, aislamiento |
+| Developer | Whoever builds on it | API, SDK, MCP server, CLI |
+| Agent | An AI system | Invocable MCP tools |
+| Human | Non-technical person | Interface, upload, correction |
+| Enterprise | Has to answer to someone | Governance panel, audit, SLA, isolation |
 
-Regla dura: si una capacidad solo existe dentro de una interfaz humana, es
-consultoría disfrazada de software. Todo lo que se le hace al cliente tiene que existir
-como API.
+Hard rule: if a capability only exists inside a human interface, it is consultancy disguised as
+software. Everything done for the client has to exist as an API.
 
-## Precio de referencia
+## Reference price
 
-Por definir según alcance
+To be defined by scope
 
-## Criterio de construcción
+## Build criterion
 
-> Un holon **no se construye porque esté en un roadmap**. Se construye cuando un
-> diagnóstico en una organización real encuentra el caos que este holon resuelve.
+> A holon **is not built because it is on a roadmap**. It is built when a diagnosis in a real
+> organization finds the chaos this holon resolves.
 
-Ver el [ROADMAP de SyntropyOS](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md)
-para el orden completo y las condiciones de reactivación.
+See the [SyntropyOS ROADMAP](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) for the
+full order and the reactivation conditions.
 
-## Licencia
+## License
 
-Apache 2.0 — ver [LICENSE](./LICENSE).
+Apache 2.0 - see [LICENSE](./LICENSE).

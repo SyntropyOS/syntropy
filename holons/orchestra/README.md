@@ -1,62 +1,62 @@
 # Syntropy Orchestra
 
-> **Coordinación** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
+> **Coordination** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
 
-**Estado: Definido (soporte)** · Posición en la cadena: **No aplica**
+<div align="right"><a href="./README_ES.md">Español</a> | English</div>
+
+**Status: Defined (support)** - Position in the chain: **Does not apply**
 
 ---
 
-## El caos que resuelve
+## The chaos it resolves
 
-**Runtime**: sin él, los holones no saben cooperar entre sí.
+**Runtime**: without it, the holons do not know how to cooperate.
 
-Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
-diagnóstico no lo encuentra, no se construye.
+This holon exists because that chaos gets diagnosed in real organizations. If a
+diagnosis does not find it, it does not get built.
 
-## Teoría
+## Theory
 
-No es un holón cognitivo. No tiene ámbito propio: coordina. Por eso la clasificación lo separa de los cognitivos, y esa decisión sigue siendo correcta.
+It is not a cognitive holon. It has no scope of its own: it coordinates. That is why the classification separates it from the cognitive ones, and that decision still holds.
 
-## Qué produce
+## What it produces
 
-Propagación de contexto, política común, salud del sistema y ciclo de vida de los holones.
+Context propagation, common policy, system health, and the lifecycle of the holons.
 
-## Señal de validación
+## Validation signal
 
-> Criterio mecánico: se construye cuando existan dos o más holones vivos. Antes es especulación.
+> Mechanical criterion: it gets built when two or more holons are alive. Before that it is speculation.
 
-Esta es la pregunta que se le hace a un cliente potencial para saber si necesita este
-holon. Si la respuesta es «no hay problema», no hay venta. Y eso es correcto.
+This is a mechanical criterion, not a question. There is no customer to ask until the precondition is met.
 
-## Dependencias
+## Dependencies
 
-Dos o más holones vivos.
+Two or more live holons.
 
-## Superficies
+## Surfaces
 
-| Superficie | Para quién | Forma |
+| Surface | For whom | Form |
 |---|---|---|
-| Desarrollador | Quien construye | API, SDK, servidor MCP, CLI |
-| Agente | Sistema de IA | Herramientas MCP invocables |
-| Humana | Persona no técnica | Interfaz, carga, corrección |
-| Empresa | Tiene que responder ante alguien | Panel de gobierno, auditoría, SLA, aislamiento |
+| Developer | Whoever builds on it | API, SDK, MCP server, CLI |
+| Agent | An AI system | Invocable MCP tools |
+| Human | Non-technical person | Interface, upload, correction |
+| Enterprise | Has to answer to someone | Governance panel, audit, SLA, isolation |
 
-Regla dura: si una capacidad solo existe dentro de una interfaz humana, es
-consultoría disfrazada de software. Todo lo que se le hace al cliente tiene que existir
-como API.
+Hard rule: if a capability only exists inside a human interface, it is consultancy disguised as
+software. Everything done for the client has to exist as an API.
 
-## Precio de referencia
+## Reference price
 
-No se vende por separado. Es infraestructura de los demás holones.
+Not sold separately. It is infrastructure for the other holons.
 
-## Criterio de construcción
+## Build criterion
 
-> Un holon **no se construye porque esté en un roadmap**. Se construye cuando un
-> diagnóstico en una organización real encuentra el caos que este holon resuelve.
+> A holon **is not built because it is on a roadmap**. It is built when a diagnosis in a real
+> organization finds the chaos this holon resolves.
 
-Ver el [ROADMAP de SyntropyOS](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md)
-para el orden completo y las condiciones de reactivación.
+See the [SyntropyOS ROADMAP](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) for the
+full order and the reactivation conditions.
 
-## Licencia
+## License
 
-Apache 2.0 — ver [LICENSE](./LICENSE).
+Apache 2.0 - see [LICENSE](./LICENSE).

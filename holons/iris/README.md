@@ -1,69 +1,68 @@
 # Syntropy Iris
 
-> **Visión** — Holon de [SyntropyOS](https://github.com/SyntropyOS)
+> **Vision** - Holon of [SyntropyOS](https://github.com/SyntropyOS)
 
-**Estado: En construcción** · Posición en la cadena: **2 de 6**
+<div align="right"><a href="./README_ES.md">Español</a> | English</div>
+
+**Status: In build** - Position in the chain: **2 of 6**
 
 ---
 
-## El caos que resuelve
+## The chaos it resolves
 
-**Percepción**: facturas, contratos, formularios y catálogos son imágenes que nadie puede consultar.
+**Perception**: invoices, contracts, forms and catalogues are images nobody can query.
 
-Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
-diagnóstico no lo encuentra, no se construye.
+This holon exists because that chaos gets diagnosed in real organizations. If a
+diagnosis does not find it, it does not get built.
 
-## Teoría
+## Theory
 
-No se puede razonar sobre lo que no se puede ver. Cuando el sustrato documental es mayoritariamente papel o imagen sin capa de datos, la percepción es el primer bloqueo real. Percepción precede a razonamiento.
+You cannot reason about what you cannot see. When the documentary substrate is mostly paper or image with no data layer, perception is the first real blocker. Perception precedes reasoning.
 
-## Qué produce
+## What it produces
 
-OCR y comprensión documental que producen registros estructurados con procedencia. Los registros alimentan directamente a Cardinal.
+OCR and document understanding that produce structured records with provenance. Those records feed Cardinal directly.
 
-## Señal de validación
+## Validation signal
 
-> ¿Qué porcentaje de los documentos de la organización se puede consultar hoy?
+> What percentage of the organization's documents can be queried today?
 
-Esta es la pregunta que se le hace a un cliente potencial para saber si necesita este
-holon. Si la respuesta es «no hay problema», no hay venta. Y eso es correcto.
+### Internal build order
 
-### Orden interno de construcción
+1. OCR for invoices and purchase orders (high volume, ROI in hours)
+2. Structured extraction of key fields
+3. Diagrams and floor plans
+4. User interfaces
 
-1. OCR de facturas y órdenes (volumen alto, ROI en horas)
-2. Extracción estructurada de campos clave
-3. Diagramas y planos
-4. Interfaces de usuario
 
-## Dependencias
+## Dependencies
 
-Ninguna. Se apoya en VantaDB.
+None. It builds on VantaDB.
 
-## Superficies
+## Surfaces
 
-| Superficie | Para quién | Forma |
+| Surface | For whom | Form |
 |---|---|---|
-| Desarrollador | Quien construye | API, SDK, servidor MCP, CLI |
-| Agente | Sistema de IA | Herramientas MCP invocables |
-| Humana | Persona no técnica | Interfaz, carga, corrección |
-| Empresa | Tiene que responder ante alguien | Panel de gobierno, auditoría, SLA, aislamiento |
+| Developer | Whoever builds on it | API, SDK, MCP server, CLI |
+| Agent | An AI system | Invocable MCP tools |
+| Human | Non-technical person | Interface, upload, correction |
+| Enterprise | Has to answer to someone | Governance panel, audit, SLA, isolation |
 
-Regla dura: si una capacidad solo existe dentro de una interfaz humana, es
-consultoría disfrazada de software. Todo lo que se le hace al cliente tiene que existir
-como API.
+Hard rule: if a capability only exists inside a human interface, it is consultancy disguised as
+software. Everything done for the client has to exist as an API.
 
-## Precio de referencia
+## Reference price
 
-USD 10.000 – 18.000 por implementación
+USD 10,000 - 18,000 per implementation
 
-## Criterio de construcción
+## Build criterion
 
-> Un holon **no se construye porque esté en un roadmap**. Se construye cuando un
-> diagnóstico en una organización real encuentra el caos que este holon resuelve.
+> A holon **is not built because it is on a roadmap**. It is built when a diagnosis in a real
+> organization finds the chaos this holon resolves.
 
-Ver el [ROADMAP de SyntropyOS](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md)
-para el orden completo y las condiciones de reactivación.
+See the [SyntropyOS ROADMAP](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) for the
+full order and the reactivation conditions.
 
-## Licencia
+## License
 
-Apache 2.0 — ver [LICENSE](./LICENSE).
+Apache 2.0 - see [LICENSE](./LICENSE).
