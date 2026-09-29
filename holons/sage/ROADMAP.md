@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+Adaptacion maquina+personas.
+
+## Metodologia (como se entrega)
+
+Dataset correcciones + metricas adopcion.
+
+## Proyecto entrada (1k-4k)
+
+Holon 1k-4k: loop en 1 dominio.
+
+## Pendiente investigar internet
+
+Gestion cambio; metricas training.

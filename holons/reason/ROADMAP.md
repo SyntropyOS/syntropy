@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+Neuro-simbolico aplazado.
+
+## Metodologia (como se entrega)
+
+Anclaje simbolico cuando Meta lo exija.
+
+## Proyecto entrada (1k-4k)
+
+Reactivacion: bottleneck inferencia.
+
+## Pendiente investigar internet
+
+Solo si Meta lo pide.

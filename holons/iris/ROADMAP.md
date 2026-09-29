@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+OCR a registros con procedencia.
+
+## Metodologia (como se entrega)
+
+Pipeline factura-registro: OCR, extraccion, revision humana obligatoria, feed a Cardinal.
+
+## Proyecto entrada (1k-4k)
+
+Piloto 100: 20 facturas a CSV. Holon 1k-4k: 500 docs/mes.
+
+## Pendiente investigar internet
+
+Textract Analyze / Azure Invoice; SENIAT RIF y N control; error OCR ES.

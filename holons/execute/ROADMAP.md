@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+Ejecucion auditada sobre MCP.
+
+## Metodologia (como se entrega)
+
+Action log + reproduccion + rollback + alertas.
+
+## Proyecto entrada (1k-4k)
+
+Holon 1k-4k: 1 tarea repetitiva con reversion.
+
+## Pendiente investigar internet
+
+MCP spec; Temporal vs Prefect.

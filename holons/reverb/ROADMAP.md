@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+Audio aplazado.
+
+## Metodologia (como se entrega)
+
+Transcripcion + clasificacion.
+
+## Proyecto entrada (1k-4k)
+
+Reactivacion: caos audio.
+
+## Pendiente investigar internet
+
+Solo si diagnostico lo pide.

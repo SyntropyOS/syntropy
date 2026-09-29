@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+Calibracion de confianza + decision log.
+
+## Metodologia (como se entrega)
+
+Tracing + scoring por respuesta + escalamiento humano + maker-checker.
+
+## Proyecto entrada (1k-4k)
+
+Piloto: 1 flujo con log. Holon 1k-4k: Meta en 1 proceso critico.
+
+## Pendiente investigar internet
+
+Langfuse self-host; auditoria banca; SOC2 Enterprise.

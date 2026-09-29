@@ -12,3 +12,21 @@
 | Implementación | Piloto 1 empresa | Mapa + cobro |
 
 Ver ROADMAP global: https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md
+
+---
+
+## Producto (software)
+
+Runtime soporte, no producto.
+
+## Metodologia (como se entrega)
+
+Contexto + policy + health, solo con 2+ vivos.
+
+## Proyecto entrada (1k-4k)
+
+Congelado. No se vende suelto.
+
+## Pendiente investigar internet
+
+Nada hasta Fase 1.
