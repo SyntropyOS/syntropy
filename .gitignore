@@ -1,0 +1,6 @@
+#.runtime
+*.pyc
+__pycache__/
+target/
+.DS_Store
+Thumbs.db
