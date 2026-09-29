@@ -62,7 +62,7 @@ software. Everything done for the client has to exist as an API.
 
 ## Reference price
 
-USD 8,000 - 15,000 per implementation
+USD 1,000 - 4,000 entry (mid-market USD 8,000 - 15,000 later)
 
 ## Build criterion
 
