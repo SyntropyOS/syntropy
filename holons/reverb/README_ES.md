@@ -26,7 +26,7 @@ Transcripción y clasificación de audio.
 
 Esto es un criterio mecánico, no una pregunta. No hay cliente al que preguntarle hasta que se cumpla la precondición.
 
-> Se reactiva cuando un diagnóstico detecte caos de percepción dominado por audio, o cuando entre un cliente con caso de uso claro.
+> ¿Qué % de los fallos de percepción tienen origen en audio? Si el audio domina el caos de percepción, se reactiva.
 
 ### Condición de reactivación
 

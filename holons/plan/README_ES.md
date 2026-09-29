@@ -30,6 +30,8 @@ Descomposición de objetivo en pasos con criterio de aceptación. Dependencias, 
 
 No es diferenciador: todo framework de agentes ya lo hace. Syntropy lo usa en lugar de competir. Se construye cuando Execute y Meta estén operativos.
 
+El orden es Meta → Execute → Plan: Plan nunca precede a sus verificadores, así que no hay circularidad.
+
 ## Dependencias
 
 Execute y Meta.

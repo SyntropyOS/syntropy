@@ -26,7 +26,7 @@ Inferencia neuro-simbolica y anclaje simbólico.
 
 Esto es un criterio mecánico, no una pregunta. No hay cliente al que preguntarle hasta que se cumpla la precondición.
 
-> Se reactiva cuando Meta necesite anclaje simbólico y el cuello de botella ya no sea confianza sino inferencia.
+> ¿Qué tasa de conclusiones excede la evidencia en el log de Meta? Si el cuello de botella es inferencia y no confianza, se reactiva.
 
 ### Condición de reactivación
 

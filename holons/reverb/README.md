@@ -25,7 +25,7 @@ Transcription and audio classification.
 
 ## Validation signal
 
-> It reactivates when a diagnosis finds perception chaos dominated by audio, or when a customer arrives with a clear use case.
+> What % of perception failures originate from audio? If audio dominates the perception chaos, this reactivates.
 
 This is a mechanical criterion, not a question. There is no customer to ask until the precondition is met.
 

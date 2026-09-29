@@ -31,6 +31,8 @@ Decomposition of a goal into steps with acceptance criteria. Dependencies, order
 
 It is not a differentiator: every agent framework already does it. Syntropy uses it instead of competing with it. It gets built once Execute and Meta are operational.
 
+Build order is Meta → Execute → Plan: Plan never precedes its verifiers, so there is no circularity.
+
 
 ## Dependencies
 

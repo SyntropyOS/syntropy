@@ -25,7 +25,7 @@ Neuro-symbolic inference and symbolic anchoring.
 
 ## Validation signal
 
-> It reactivates when Meta needs symbolic anchoring and the bottleneck is no longer trust but inference.
+> What rate of conclusions exceed the evidence in Meta's log? If the bottleneck is inference rather than trust, this reactivates.
 
 This is a mechanical criterion, not a question. There is no customer to ask until the precondition is met.
 
