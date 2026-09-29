@@ -41,10 +41,10 @@ prioridades hayan cambiado. Un holón sin caos diagnosticado detrás es una supo
 | [**Reason**](./holons/reason/README_ES.md) · [EN](./holons/reason/) | Razonamiento | Fuera del alcance inicial | Aplazado |
 
 **Definido** significa que el diseño y los criterios de activación están documentados. No
-significa que esté en producción. Hoy solo un holón está en producción.
+significa que esté en producción. Hoy solo el sustrato (VantaDB) está en producción.
 
 **Cardinal** va primero porque los demás dependen de él: sin contexto verificable no hay
-nada que perceptionar ni que verificar. **Meta** subió de novena a tercera porque es el
+nada que percibir ni que verificar. **Meta** subió de novena a tercera porque es el
 diferenciador — la competencia vende capacidad, esto vende verificabilidad.
 
 **Plan** aparece después de Meta porque su salida debe ser verificable, y la verificación
@@ -58,7 +58,7 @@ precisión, y ningún otro holón cubre eso.
 
 | Componente | Qué es | Dónde |
 |---|---|---|
-| **VantaDB** | Memoria con ACID, MVCC, WAL e índices HNSW/IVF/SCANN | [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) · v0.5.0 en producción |
+| **VantaDB** | Memoria con ACID, MVCC, WAL e índices HNSW/IVF/SCANN | [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) · v0.7.0 en producción |
 
 VantaDB es el único holón ya construido. Vive en su propio repositorio porque es una
 librería publicada con un ciclo de versión independiente. Todo lo que hay en *este*
@@ -163,7 +163,6 @@ Apache 2.0 — ver [LICENSE](./LICENSE).
 ---
 
 > **Historial.** Este monorepo sustituyó a los nueve repositorios por holón
-> `syntropy-<holon>`, archivados el 28 de septiembre de 2026. Cada uno se integró con
+> `syntropy-<holon>`, eliminados el 29 de septiembre de 2026. Cada uno se integró con
 > `git subtree`, así que los 27 commits originales sobreviven aquí con sus autores y
-> fechas. Los repositorios archivados siguen siendo legibles y dicen a dónde fue su
-> contenido.
+> fechas. Su historial vive dentro del monorepo.

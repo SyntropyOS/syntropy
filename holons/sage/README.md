@@ -40,7 +40,7 @@ Learning on untrusted context **amplifies** the error instead of correcting it. 
 
 ## Dependencies
 
-Cardinal and Iris.
+Cardinal, Iris and Meta.
 
 ## Surfaces
 

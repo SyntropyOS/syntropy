@@ -9,7 +9,7 @@
 
 ## El caos que resuelve
 
-**Transversal**: nadie descompone el trabajo, y todos hacen todo.
+**Descomposición**: nadie descompone el trabajo, y todos hacen todo.
 
 Este holon existe porque ese caos se diagnostica en organizaciones reales. Si un
 diagnóstico no lo encuentra, no se construye.
@@ -28,7 +28,7 @@ Descomposición de objetivo en pasos con criterio de aceptación. Dependencias, 
 
 ### Por qué no es prioritario
 
-No es diferenciador: todo framework de agentes ya lo hace. Syntropy lo usa en lugar de competir. Se construye cuando Execute y Meta esten operativos.
+No es diferenciador: todo framework de agentes ya lo hace. Syntropy lo usa en lugar de competir. Se construye cuando Execute y Meta estén operativos.
 
 ## Dependencias
 

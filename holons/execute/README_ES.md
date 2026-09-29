@@ -28,7 +28,7 @@ Capa de ejecución de acciones y herramientas. Registro completo de cada acción
 
 ### Relación con MCP
 
-La ejecución de herramientas en el mundo de agentes es MCP. Execute no compite con MCP: lo consume con la capa de auditoría que MCP no trae.
+La ejecución de herramientas en el mundo de agentes es MCP. Execute no compite con MCP: lo consume y añade la capa de auditoría que MCP no trae.
 
 ## Dependencias
 

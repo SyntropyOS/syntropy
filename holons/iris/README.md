@@ -37,7 +37,7 @@ OCR and document understanding that produce structured records with provenance. 
 
 ## Dependencies
 
-None. It builds on VantaDB.
+Depends on VantaDB substrate; no holon dependency.
 
 ## Surfaces
 

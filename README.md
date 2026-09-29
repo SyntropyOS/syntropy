@@ -40,8 +40,8 @@ priorities changed. A holon with no diagnosed chaos behind it is a guess.
 | [**Reverb**](./holons/reverb/) · [ES](./holons/reverb/README_ES.md) | Audio | Out of initial scope | Deferred |
 | [**Reason**](./holons/reason/) · [ES](./holons/reason/README_ES.md) | Reasoning | Out of initial scope | Deferred |
 
-**Defined** means the design and the activation criteria are documented. It does not mean
-it ships. Only one holon is in production today.
+**Defined** means the design and activation criteria are documented; it does not mean it
+ships. Only the substrate (VantaDB) is in production today.
 
 **Cardinal** comes first because the others depend on it: without verifiable context there
 is nothing to perceive and nothing to verify. **Meta** moved from ninth to third because
@@ -58,7 +58,7 @@ accuracy, and no other holon covers that.
 
 | Component | What it is | Where |
 |---|---|---|
-| **VantaDB** | Memory with ACID, MVCC, WAL and HNSW/IVF/SCANN indexes | [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) · v0.5.0 in production |
+| **VantaDB** | Memory with ACID, MVCC, WAL and HNSW/IVF/SCANN indexes | [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) · v0.7.0 in production |
 
 VantaDB is the one holon already built. It lives in its own repository because it is a
 released library with an independent version cycle. Everything in *this* repository is
@@ -161,6 +161,6 @@ Apache 2.0 — see [LICENSE](./LICENSE).
 ---
 
 > **History.** This monorepo replaced nine per-holon repositories, `syntropy-<holon>`,
-> archived on 28 September 2026. Each was merged with `git subtree`, so all 27 original
-> commits survive here with their original authors and dates. The archived repositories
-> remain readable and say where their contents went.
+> deleted on 29 September 2026. Each was merged with `git subtree`, so all 27 original
+> commits survive here with their original authors and dates. Their history lives inside the
+> monorepo.
