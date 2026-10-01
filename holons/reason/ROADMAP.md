@@ -30,3 +30,7 @@ Reactivacion: bottleneck inferencia.
 ## Pendiente investigar internet
 
 Solo si Meta lo pide.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee la inferencia neuro-simbólica y el anclaje simbólico — sobrevive si cambia el backend.

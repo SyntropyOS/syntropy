@@ -64,6 +64,16 @@ VantaDB is the one holon already built. It lives in its own repository because i
 released library with an independent version cycle. Everything in *this* repository is
 what is missing.
 
+**The substrate is not a dependency of the holons.** Each holon owns a scope, a deliverable
+and a metric of its own. VantaDB is the *reference implementation* of storage, not a
+requirement. Three questions decide whether something is a holon or a feature of the store:
+
+1. Does it survive a backend change? A holon does: what it owns is logic and semantics, not tables.
+2. Does it deliver something on its own? An index, a log, a dataset, a rollback.
+3. Does it have its own surface — API, SDK, MCP — beyond a table inside the store?
+
+If all three answers are no, it is not a holon: it is a table. None of the nine fails this test.
+
 ---
 
 ## Correspondence with the standard agent architecture

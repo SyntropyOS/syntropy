@@ -30,3 +30,7 @@ Holon 1k-4k: loop en 1 dominio.
 ## Pendiente investigar internet
 
 Gestion cambio; metricas training.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee el dataset de correcciones y las métricas de adopción — sobrevive si cambia el backend.

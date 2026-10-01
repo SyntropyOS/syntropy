@@ -30,3 +30,7 @@ Piloto: 1 flujo con log. Holon 1k-4k: Meta en 1 proceso critico.
 ## Pendiente investigar internet
 
 Langfuse self-host; auditoria banca; SOC2 Enterprise.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee la calibración de confianza y el decision log — sobrevive si cambia el backend.

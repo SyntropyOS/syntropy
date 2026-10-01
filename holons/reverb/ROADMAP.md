@@ -30,3 +30,7 @@ Reactivacion: caos audio.
 ## Pendiente investigar internet
 
 Solo si diagnostico lo pide.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee la transcripción y clasificación de audio — sobrevive si cambia el backend.

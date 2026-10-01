@@ -30,3 +30,7 @@ Congelado. No se vende suelto.
 ## Pendiente investigar internet
 
 Nada hasta Fase 1.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee la coordinación de contexto, política y salud; no almacena — sobrevive si cambia el backend.

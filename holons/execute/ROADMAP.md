@@ -30,3 +30,7 @@ Holon 1k-4k: 1 tarea repetitiva con reversion.
 ## Pendiente investigar internet
 
 MCP spec; Temporal vs Prefect.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee el action log, la reproducción y el rollback — sobrevive si cambia el backend.

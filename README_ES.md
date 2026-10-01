@@ -64,6 +64,16 @@ VantaDB es el único holón ya construido. Vive en su propio repositorio porque 
 librería publicada con un ciclo de versión independiente. Todo lo que hay en *este*
 repositorio es lo que falta.
 
+**El sustrato no es una dependencia de los holones.** Cada holón posee un ámbito, un
+entregable y una métrica propios. VantaDB es la *implementación de referencia* del storage,
+no un requisito. Tres preguntas deciden si algo es un holón o una feature del almacén:
+
+1. ¿Sobrevive a un cambio de backend? Un holón sí: lo que posee es lógica y semántica, no tablas.
+2. ¿Entrega algo por sí solo? Un índice, un log, un dataset, un rollback.
+3. ¿Tiene superficie propia — API, SDK, MCP — más allá de una tabla dentro del almacén?
+
+Si las tres respuestas son no, no es un holón: es una tabla. Ninguno de los nueve falla este test.
+
 ---
 
 ## Correspondencia con la arquitectura estándar de agentes

@@ -30,3 +30,7 @@ Piloto 100: 20 facturas a CSV. Holon 1k-4k: 500 docs/mes.
 ## Pendiente investigar internet
 
 Textract Analyze / Azure Invoice; SENIAT RIF y N control; error OCR ES.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee la extracción documental; la persistencia es reemplazable — sobrevive si cambia el backend.

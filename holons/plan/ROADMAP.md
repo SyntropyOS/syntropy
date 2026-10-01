@@ -30,3 +30,7 @@ Holon 1k-4k: planes 5 pasos verificables.
 ## Pendiente investigar internet
 
 Azure magentic; ledger patterns.
+
+## Storage
+
+Usa VantaDB como implementación de referencia. Posee el ledger de descomposición; la persistencia es reemplazable — sobrevive si cambia el backend.
